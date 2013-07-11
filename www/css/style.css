@@ -9,9 +9,9 @@ margin: 0 auto;
     width: 960px;
 	border: 1px solid;
 }
-.header
-{
-border: 1px solid;
+.header {
+    border: 1px solid;
+    height: 70px;
 }
 .footer
 {
@@ -31,4 +31,12 @@ list-style: none outside none;
 {
 cursor:pointer;
 background:#7f5928;
+}
+.menu_item
+{
+background:58f262;
+}
+.menu_items
+{
+display:none;
 }
