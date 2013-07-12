@@ -1,42 +1,38 @@
-.content 
-{
-    border: 1px solid;
-    height: 1060px;
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    border: 0 none;
+    height: 110px;
+    margin: 0;
+    padding: 0;
 }
-.page
-{
-margin: 0 auto;
-    width: 960px;
-	border: 1px solid;
-}
-.header {
-    border: 1px solid;
-    height: 70px;
-}
-.footer
-{
-border: 1px solid;
-}
-.menu
-{
-list-style: none outside none;
 
+body {
+	background: #f5f0e0 url(../images/noise.png);
 }
-.menu li {
-    border: 1px solid;
-    float: left;
-    width: 171px;
+
+#container {
+	height: 120px;
+	background: url(../images/bg.png) center top no-repeat;
 }
-.menu li:hover
-{
-cursor:pointer;
-background:#7f5928;
+
+ul#nav {
+	width: 700px; margin: 0 auto; text-align: center; overflow: hidden;
 }
-.menu_item
-{
-background:58f262;
-}
-.menu_items
-{
-display:none;
-}
+	ul#nav li {
+		float: left; list-style: none; 
+	}
+		ul#nav li a {
+			display: block; width: 97px; height: 77px; 
+			padding: 72px 0 0 0; margin: 0 32px 0 32px;
+			font: bold 16px Helvetica, Arial, Sans-Serif; text-transform: uppercase;
+			color: #ffffff; text-shadow: 0 1px 3px #c4bda6; text-decoration: none;
+			
+			background: url(../images/label.png) 0 -149px no-repeat; 
+		}
+			ul#nav li a:hover {
+				background: url(../images/label.png) 0 0 no-repeat;
+				color: #eee9d9; text-shadow: 0 2px 3px #4c2222;
+			}
+			
+			ul#nav li a.js:hover {
+				background: url(../images/label.png) 0 -149px no-repeat;
+			}

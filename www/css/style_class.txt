@@ -1,0 +1,10 @@
+.page
+{
+width:960px;
+border: 1px auto;
+}
+.header
+{
+border: 1px solid;
+margin: 0 auto;
+}
